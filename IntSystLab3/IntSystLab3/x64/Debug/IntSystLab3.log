@@ -1,0 +1,3 @@
+﻿  IntSystLab3.cpp
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab3\IntSystLab3\IntSystLab3.cpp(320,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  IntSystLab3.vcxproj -> C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab3\x64\Debug\IntSystLab3.exe
