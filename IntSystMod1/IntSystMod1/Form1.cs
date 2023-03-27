@@ -29,7 +29,7 @@ namespace IntSystMod1
             label7.Visible = false;
             label6.Visible = false;
         }
-
+        //Это единственный экзамен?
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked == true)
@@ -66,7 +66,7 @@ namespace IntSystMod1
                 button1.Visible = true;
             }
         }
-
+        //У вас есть работа, учёба, доболнительные дела каждую неделю?
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox2.Checked == false)
@@ -81,7 +81,7 @@ namespace IntSystMod1
                 numericUpDown3.Visible = true;
             }
         }
-
+        //кнопка "ОК, не единственный экзамен"
         private void button1_Click(object sender, EventArgs e)
         {
             label3.Visible = true;
@@ -108,6 +108,7 @@ namespace IntSystMod1
                 trackBars.Scroll += new EventHandler(trackBars_Scroll);
             }
         }
+        //прокрутка  trackBars
         private void trackBars_Scroll(object sender, EventArgs e)
         {
             TrackBar trackBars = (TrackBar)sender;
@@ -120,7 +121,7 @@ namespace IntSystMod1
             if (numericUpDown3.Text != "")
                 x = int.Parse(numericUpDown3.Text);
         }
-
+        //нажатие на кнопку очистки
         private void button3_Click(object sender, EventArgs e)
         {
             if (checkBox1.Checked == false)
@@ -164,11 +165,12 @@ namespace IntSystMod1
         {
             string[] Answer = new string[4];
             Answer[0] = "В день на подготовку будет достаточно уделять по ";
-            Answer[1] = "Возможно, у Вас будет меньше времени на обычные дела, не рекомендуем работать больше положенного.'\n'Тем не менее, Вы можете попытаться готовиться каждый день по ";
+            Answer[1] = "Возможно, у Вас будет меньше времени на обычные дела, не рекомендуем работать больше положенного.\n Тем не менее, Вы можете попытаться готовиться каждый день по ";
             Answer[2] = "Мы не рекомендуем сейчас начинать готовиться. Уже поздно, и лучше расслабиться и хорошо выспаться.";
-            Answer[3] = "Вы не заполнили поля для ввода или заполнили их неверно.'\n' Нажмите Очистить, после чего введите данные заново.";
+            Answer[3] = "Вы не заполнили поля для ввода или заполнили их неверно.\n Нажмите Очистить, после чего введите данные заново.";
 
             double l = 0;
+            //обработка ошибок ввода
             if ((numericUpDown1.Text == "") || (numericUpDown2.Visible && !double.TryParse(numericUpDown2.Text, out l)) || (numericUpDown3.Visible && !double.TryParse(numericUpDown3.Text, out l)))
             {
                 label8.Text = Answer[3];
@@ -178,7 +180,8 @@ namespace IntSystMod1
             {
                 l = 0;
                 string k = "", z = "", key;
-                double n = 0, checkcounter=0;
+                double n = 0, 
+                    checkcounter=0;//переменная, определяющая условия, 2значная
                 if (checkBox1.Checked)
                     checkcounter += 1;
                 if (checkBox2.Checked)
@@ -239,6 +242,7 @@ namespace IntSystMod1
                     }
 
                 }
+                //обработка незаполненных radiobutton
                 if (l != 3)
                 {
                     label8.Text = Answer[3];
@@ -254,7 +258,7 @@ namespace IntSystMod1
                 double value1 = y * 7.09 - n,
                     value2 = y * (6.09 - 17* x / (7 * 69) - (y / 7) * x) - n;
 
-                if (y > 1)
+                if (y > 1 && chasItog[key]<12 && 1.5*chasItog[key] < 12)
                 {
                     if (checkcounter==90)
                         if (chasItog[key] < value1)
