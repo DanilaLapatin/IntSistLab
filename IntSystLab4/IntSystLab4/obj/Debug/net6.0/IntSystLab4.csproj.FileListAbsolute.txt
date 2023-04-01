@@ -1,0 +1,15 @@
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\bin\Debug\net6.0\IntSystLab4.exe
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\bin\Debug\net6.0\IntSystLab4.deps.json
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\bin\Debug\net6.0\IntSystLab4.runtimeconfig.json
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\bin\Debug\net6.0\IntSystLab4.dll
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\bin\Debug\net6.0\IntSystLab4.pdb
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\IntSystLab4.csproj.AssemblyReference.cache
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\IntSystLab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\IntSystLab4.AssemblyInfoInputs.cache
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\IntSystLab4.AssemblyInfo.cs
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\IntSystLab4.csproj.CoreCompileInputs.cache
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\IntSystLab4.dll
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\refint\IntSystLab4.dll
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\IntSystLab4.pdb
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\IntSystLab4.genruntimeconfig.cache
+C:\Users\lapat\Desktop\Интеллектуальные системы\IntSystLab4\IntSystLab4\obj\Debug\net6.0\ref\IntSystLab4.dll
